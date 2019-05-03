@@ -1,0 +1,16 @@
+beacon 1
+  BLEDevice::init("LabyrinthStation 1");
+
+#define SERVICE_UUID        "4fafc201-1fb5-459e-8fcc-c5c9c331914b"
+#define CHARACTERISTIC_UUID "beb5483e-36e1-4688-b7f5-ea07361b26a8"
+
+
+beacon 2
+
+BLEDevice::init("LabyrinthStation 2");
+
+#define SERVICE_UUID        "4436e260-5620-4cb3-9025-d1a28f88560d"
+#define CHARACTERISTIC_UUID "ea2bb251-1271-45fa-abf0-9325fe83f539"
+
+
+
